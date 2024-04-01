@@ -1,0 +1,7 @@
+body{
+    background: url(../IMG/FansiteWall.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /*todo esto es para ajustar la imagen de fondo a la pagina y hacerla responsiba*/
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
