@@ -31,8 +31,8 @@ window.onscroll = () => {
     header.classList.toggle('sticky', window.scrollY > 100);
 
     // Remover el icono pulsar y la barra de navegacion al hacer clic en el enlace de la barra de navegacion (sroll)
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
 };
 
 // scroll reveal
