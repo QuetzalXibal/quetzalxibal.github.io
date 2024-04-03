@@ -473,9 +473,11 @@ span {
     .portafolio h2 {
         margin-bottom: 3rem;
     }
+}
 
+@media (max-width: 750px) {
     .portafolio-container {
-        grid-template-columns: 2fr;
+        grid-template-columns: repeat(2, left);
     }
 }
 
