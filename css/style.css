@@ -413,6 +413,12 @@ span {
     }
 }
 
+@media (max-width: 800px) {
+    .portafolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
     #menu-icon {
         display: block;
@@ -472,12 +478,6 @@ span {
 
     .portafolio h2 {
         margin-bottom: 3rem;
-    }
-}
-
-@media (max-width: 750px) {
-    .portafolio-container {
-        grid-template-columns: repeat(2, 1fr);
     }
 }
 
