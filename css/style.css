@@ -475,7 +475,7 @@ span {
     }
 
     .portafolio-container {
-        grid-template-columns: repeat(2, left);
+        grid-template-columns: repeat(2fr, left);
     }
 }
 
